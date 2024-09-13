@@ -1,3 +1,0 @@
-/.vs
-/PrjHelloWorld/bin
-/PrjHelloWorld/obj
