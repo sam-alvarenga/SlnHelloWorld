@@ -18,56 +18,72 @@
 //bool temArCondicionado = false;
 
 
-using PrjHelloWord.models;
 
-//Definindo uma variável como tipo Pessoa para armazenar um
-//Objeto pessoa. Nenhum outro tipo vai funcionar
-Pessoa minhaPessoa = new Pessoa();
+using SamAlvarenga.PrjHelloWorld.Models;
 
-//Console.WriteLine("Hello, Digite seu nome");
-//minhaPessoa.Nome = Console.ReadLine();
 
-//Console.WriteLine("Hello, Digite sua idade:");
-//minhaPessoa.Idade =  Convert.ToInt32(Console.ReadLine());
 
-////Console.WriteLine($"O nome da pessoa é {minhaPessoa.Nome} e a idade é { minhaPessoa.Idade.ToString()} anos." + $"{minhaPessoa.exibirMensagemMaioridade()}");
-//Console.WriteLine(minhaPessoa.exibirDadosPessoa());
+//////Console.WriteLine("Hello, Digite seu nome");
+//////minhaPessoa.Nome = Console.ReadLine();
 
-//metodo construtor que ja traz dados existentes
-//Console.WriteLine("PESSOA 1");
-//Console.WriteLine("Hello, Digite seu nome:");
-//minhaPessoa.Nome = Console.ReadLine();
-//Console.WriteLine("Digite sua idade:");
-//minhaPessoa.Idade = Convert.ToInt32(Console.ReadLine());
+//////Console.WriteLine("Hello, Digite sua idade:");
+//////minhaPessoa.Idade =  Convert.ToInt32(Console.ReadLine());
 
-//Console.WriteLine(minhaPessoa.exibirDadosPessoa());
+////////Console.WriteLine($"O nome da pessoa é {minhaPessoa.Nome} e a idade é { minhaPessoa.Idade.ToString()} anos." + $"{minhaPessoa.exibirMensagemMaioridade()}");
+//////Console.WriteLine(minhaPessoa.exibirDadosPessoa());
 
-//Console.WriteLine("PESSOA 2");
-//Console.WriteLine("Hello, Digite seu nome:");
-//string nomePessoa = Console.ReadLine();
-//Console.WriteLine("Digite sua idade:");
-//int idadePessoa = Convert.ToInt32(Console.ReadLine());
+//////metodo construtor que ja traz dados existentes
+//////Definindo uma variável como tipo Pessoa para armazenar um
+//////Objeto pessoa. Nenhum outro tipo vai funcionar
+////Pessoa minhaPessoa = new Pessoa();
 
-//Pessoa minhaPessoa2 = new Pessoa(nomePessoa, idadePessoa);
-//Console.WriteLine(minhaPessoa2.exibirDadosPessoa());
 
-//if (minhaPessoa.verificarMaioridade() == true)
-//{
-//    Console.WriteLine($"Você é maior de idade.");
-//}
-//else
-//{
-//    Console.WriteLine($"Você é menor de idade.");
-//}
+////try
+////{
+////    string ?nomePessoa = String.Empty permitido nulo
+////	Console.WriteLine("PESSOA 1");
+////	Console.WriteLine("Hello, Digite seu nome:");
+////	minhaPessoa.Nome = Console.ReadLine();
+////	Console.WriteLine("Digite sua idade:");
+////	minhaPessoa.Idade = Convert.ToInt32(Console.ReadLine());
 
-//Tipo primitivo x Tipo Referência
+////	Console.WriteLine(minhaPessoa.exibirDadosPessoa());
 
-int x = 10;
-int y = 20;
-Console.WriteLine(x);//10
-Console.WriteLine(y);//20
-x = y + 1;
-Console.WriteLine(x);//21   
-Console.WriteLine(y);//20
+////	Console.WriteLine("PESSOA 2");
+////	Console.WriteLine("Hello, Digite seu nome:");
+////	string nomePessoa = Console.ReadLine();
+////	Console.WriteLine("Digite sua idade:");
+////	int idadePessoa = Convert.ToInt32(Console.ReadLine());
+    
+//    Construtor Customizado
+////	Pessoa minhaPessoa2 = new Pessoa(nomePessoa, idadePessoa);
+////	Console.WriteLine(minhaPessoa2.exibirDadosPessoa());
+////}
+////catch (Exception ex)
+////{
 
-//teste
+////	Console.WriteLine(ex.Message);
+
+////}
+
+//////if (minhaPessoa.verificarMaioridade() == true)
+//////{
+//////    Console.WriteLine($"Você é maior de idade.");
+//////}
+//////else
+//////{
+//////    Console.WriteLine($"Você é menor de idade.");
+//////}
+
+//////Tipo primitivo x Tipo Referência
+
+//////int x = 10;
+//////int y = 20;
+//////Console.WriteLine(x);//10
+//////Console.WriteLine(y);//20
+//////x = y + 1;
+//////Console.WriteLine(x);//21   
+//////Console.WriteLine(y);//20
+
+//////teste
+
