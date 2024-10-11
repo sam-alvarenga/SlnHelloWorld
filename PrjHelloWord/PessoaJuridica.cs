@@ -44,7 +44,7 @@ namespace SamAlvarenga.PrjHelloWorld.Models
         /// </summary>
         /// <param name="pNome">Representa o nome da pessoa jurídica. Valores nulos ou com menos de dois caracteres não são admitidos.</param>
         /// <param name="pIdade">Representa a idade da pessoa jurídica. Valores menores que 1 e maiores que 135 não sao admitidos.</param>
-        /// <param name="pjCnpj">Representa o CNPJ da pessoa jurídica. Valores com quantidade de caracteres diferente de 15 não serão aceitos.</param>
+        /// <param name="pjCnpj">Representa o CNPJ da pessoa jurídica. Valores com quantidade de caracteres diferente de 14 não serão aceitos.</param>
         public PessoaJuridica(string pNome, int pIdade, string pjCnpj) : base(pNome, pIdade)
         {
           

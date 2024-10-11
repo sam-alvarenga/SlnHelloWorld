@@ -174,7 +174,7 @@ namespace SamAlvarenga.PrjHelloWorld.Models
 
         public override string ToString()
         {
-            return this.ToString();
+            return this.Nome;
         }
     }
 }

@@ -7,8 +7,9 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AnalysisLevel>6.0</AnalysisLevel>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
