@@ -24,7 +24,7 @@ namespace SamAlvarenga.PrjHelloWorld.Models
             get { return _Cnpj; }
             set
             {
-                if(value.Length != 15)
+                if(value.Length != 14)
                 {
                     throw new Exception("CNPJ Inválido!");
 

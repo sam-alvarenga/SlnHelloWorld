@@ -171,6 +171,11 @@ namespace SamAlvarenga.PrjHelloWorld.Models
 
             return $"{this.Idade.ToString()} anos";
         }
+
+        public override string ToString()
+        {
+            return this.ToString();
+        }
     }
 }
     

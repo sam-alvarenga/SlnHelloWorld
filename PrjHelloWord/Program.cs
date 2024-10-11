@@ -19,7 +19,7 @@
 
 
 
-using SamAlvarenga.PrjHelloWorld.Models;
+//using SamAlvarenga.PrjHelloWorld.Models;
 
 
 
@@ -87,6 +87,6 @@ using SamAlvarenga.PrjHelloWorld.Models;
 
 //////teste
 
-Pessoa pessoa = new Pessoa("Juquinha", 40);
+//Pessoa pessoa = new Pessoa("Juquinha", 40);
 
-PessoaFisica pessoaFisica = new PessoaFisica("Martha", 34, "33344455566");
+//PessoaFisica pessoaFisica = new PessoaFisica("Martha", 34, "33344455566");
