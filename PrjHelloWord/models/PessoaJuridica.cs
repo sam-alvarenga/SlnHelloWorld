@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SamAlvarenga.PrjHelloWorld.Models;
 
 namespace SamAlvarenga.PrjHelloWorld.Models
 {
@@ -12,7 +13,7 @@ namespace SamAlvarenga.PrjHelloWorld.Models
     /// </summary>
     public class PessoaJuridica : Pessoa
     {
-        private string _Cnpj ;
+        private string _Cnpj;
 
         /// <summary>
         /// Obtém ou define o CNPJ da pessoa jurídica.
@@ -24,17 +25,17 @@ namespace SamAlvarenga.PrjHelloWorld.Models
             get { return _Cnpj; }
             set
             {
-                if(value.Length != 14)
+                if (value.Length != 14)
                 {
                     throw new Exception("CNPJ Inválido!");
 
                 }
                 _Cnpj = value;
             }
-                
-                
-                
-                
+
+
+
+
         }
 
 
@@ -47,8 +48,8 @@ namespace SamAlvarenga.PrjHelloWorld.Models
         /// <param name="pjCnpj">Representa o CNPJ da pessoa jurídica. Valores com quantidade de caracteres diferente de 14 não serão aceitos.</param>
         public PessoaJuridica(string pNome, int pIdade, string pjCnpj) : base(pNome, pIdade)
         {
-          
-            this.Cnpj = pjCnpj;
-        }    
+
+            Cnpj = pjCnpj;
+        }
     }
 }

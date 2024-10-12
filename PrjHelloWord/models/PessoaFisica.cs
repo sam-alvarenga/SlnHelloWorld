@@ -23,13 +23,14 @@ namespace SamAlvarenga.PrjHelloWorld.Models
         public string Cpf
         {
             get { return _cpf; }
-            set { 
-                if (value.Length!=11) 
+            set
+            {
+                if (value.Length != 11)
                 {
 
                     throw new Exception("Cpf Inválido!");
                 }
-                _cpf = value; 
+                _cpf = value;
             }
         }
 
@@ -39,9 +40,9 @@ namespace SamAlvarenga.PrjHelloWorld.Models
         /// <param name="pNome">Representa o nome da pessoa física. Valores nulos ou com menos de dois caracteres não são admitidos</param>
         /// <param name="pIdade">Representa a idade da pessoa física. Valores menores que 1 e maiores que 135 não sao admitidos.</param>
         /// <param name="pCpf">Representa o número de cadastro da pessoa física. Valores com quantidade de caracteres diferente de 11 não serão aceitos</param>
-        public PessoaFisica(string pNome, int pIdade, string pCpf) : base (pNome,pIdade) 
+        public PessoaFisica(string pNome, int pIdade, string pCpf) : base(pNome, pIdade)
         {
-            this.Cpf = pCpf;
+            Cpf = pCpf;
         }
     }
 }
